@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>vue-awesome-swiper使用 | kying的博客</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="记录学习">
+    <link rel="preload" href="/assets/css/0.styles.abfd12c2.css" as="style"><link rel="preload" href="/assets/js/app.5bf611c2.js" as="script"><link rel="preload" href="/assets/js/2.da939bf9.js" as="script"><link rel="preload" href="/assets/js/27.051130f8.js" as="script"><link rel="prefetch" href="/assets/js/10.94ba4c8c.js"><link rel="prefetch" href="/assets/js/11.ea64fb5d.js"><link rel="prefetch" href="/assets/js/12.9a034e55.js"><link rel="prefetch" href="/assets/js/13.740f34bd.js"><link rel="prefetch" href="/assets/js/14.89ac7061.js"><link rel="prefetch" href="/assets/js/15.c0eec1ee.js"><link rel="prefetch" href="/assets/js/16.c4a93a6e.js"><link rel="prefetch" href="/assets/js/17.6a49ade9.js"><link rel="prefetch" href="/assets/js/18.58ae8385.js"><link rel="prefetch" href="/assets/js/19.a75917d0.js"><link rel="prefetch" href="/assets/js/20.3d1107c4.js"><link rel="prefetch" href="/assets/js/21.77f39cde.js"><link rel="prefetch" href="/assets/js/22.bbe9aca3.js"><link rel="prefetch" href="/assets/js/23.ee187d4f.js"><link rel="prefetch" href="/assets/js/24.83da4550.js"><link rel="prefetch" href="/assets/js/25.bc74434c.js"><link rel="prefetch" href="/assets/js/26.81f4d335.js"><link rel="prefetch" href="/assets/js/28.aae3ccdc.js"><link rel="prefetch" href="/assets/js/29.2c19dd26.js"><link rel="prefetch" href="/assets/js/3.6e20b173.js"><link rel="prefetch" href="/assets/js/30.52e48799.js"><link rel="prefetch" href="/assets/js/31.e27a6f1b.js"><link rel="prefetch" href="/assets/js/32.223da2a2.js"><link rel="prefetch" href="/assets/js/4.3b6a7e49.js"><link rel="prefetch" href="/assets/js/5.b56c7355.js"><link rel="prefetch" href="/assets/js/6.188cbc13.js"><link rel="prefetch" href="/assets/js/7.2b8ac836.js"><link rel="prefetch" href="/assets/js/8.2adc61ec.js"><link rel="prefetch" href="/assets/js/9.ba516307.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.abfd12c2.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">kying的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://github.com/Kying-star" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><a href="/guide/" class="nav-link">
+  指南
+</a></div><div class="nav-item"><a href="https://github.com/Kying-star" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/js/" class="sidebar-heading clickable"><span>js部分</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/js/彻底了解This.html" class="sidebar-link">彻底了解This</a></li><li><a href="/js/原型与原型链.html" class="sidebar-link">原型与原型链</a></li><li><a href="/js/AJAX.html" class="sidebar-link">AJAX</a></li><li><a href="/js/防抖与节流.html" class="sidebar-link">防抖与节流</a></li><li><a href="/js/高阶函数.html" class="sidebar-link">闭包</a></li><li><a href="/js/懒加载.html" class="sidebar-link">懒加载</a></li><li><a href="/js/轮播图.html" class="sidebar-link">轮播图</a></li><li><a href="/js/js作用域.html" class="sidebar-link">js作用域</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/css/" class="sidebar-heading clickable"><span>css</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/css/几种好看的颜色.html" class="sidebar-link">几种好看的颜色</a></li><li><a href="/css/帅到离谱的滚动视差.html" class="sidebar-link">帅到离谱的滚动视差</a></li><li><a href="/css/CSS拟态风.html" class="sidebar-link">CSS 拟态风</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/vue/" class="sidebar-heading clickable router-link-active open"><span>vue</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/vue/Vite.html" class="sidebar-link">Vite</a></li><li><a href="/vue/vue props.html" class="sidebar-link">vue props</a></li><li><a href="/vue/vue-awesome-swiper使用.html" class="active sidebar-link">vue-awesome-swiper使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vue/vue-awesome-swiper使用.html#vue-awesome-swiper使用" class="sidebar-link">vue-awesome-swiper使用</a></li></ul></li><li><a href="/vue/vue-router的使用.html" class="sidebar-link">vue-router的使用</a></li><li><a href="/vue/vue_scss.html" class="sidebar-link">vue—scss 版本问题</a></li><li><a href="/vue/Vue脚手架.html" class="sidebar-link">Vue脚手架</a></li><li><a href="/vue/vue配置代理服务器.html" class="sidebar-link">vue配置代理服务器</a></li><li><a href="/vue/vue使用 postcss 插件转换 px 为 vw.html" class="sidebar-link">使用 postcss 插件转换 px 为 vw</a></li><li><a href="/vue/Vue事件.html" class="sidebar-link">Vue事件</a></li><li><a href="/vue/Vue自定义组件.html" class="sidebar-link">Vue 自定义组件</a></li><li><a href="/vue/vuex的使用.html" class="sidebar-link">vuex的使用</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="vue-awesome-swiper使用"><a href="#vue-awesome-swiper使用" class="header-anchor">#</a> vue-awesome-swiper使用</h2> <hr> <h3 id="下载"><a href="#下载" class="header-anchor">#</a> 下载</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code>npm install swiper vue<span class="token operator">-</span>awesome<span class="token operator">-</span>swiper <span class="token operator">--</span>save
+# or
+yarn add swiper vue<span class="token operator">-</span>awesome<span class="token operator">-</span>swiper
+</code></pre></div><h3 id="引入"><a href="#引入" class="header-anchor">#</a> 引入</h3> <p>1、全局引入</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> Vue <span class="token keyword">from</span> <span class="token string">'vue'</span>
+<span class="token keyword">import</span> VueAwesomeSwiper <span class="token keyword">from</span> <span class="token string">'vue-awesome-swiper'</span>
+<span class="token comment">// import style</span>
+<span class="token comment">//import 'swiper/css/swiper.css'版本问题</span>
+ <span class="token keyword">import</span> <span class="token string">&quot;swiper/swiper-bundle.min.css&quot;</span><span class="token punctuation">;</span><span class="token comment">//6X版本</span>
+Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>VueAwesomeSwiper<span class="token punctuation">,</span> <span class="token comment">/* { default options with global component } */</span><span class="token punctuation">)</span>
+</code></pre></div><p>2、局部引入</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token keyword">import</span> <span class="token punctuation">{</span> Swiper<span class="token punctuation">,</span> SwiperSlide<span class="token punctuation">,</span> directive <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vue-awesome-swiper'</span>
+<span class="token comment">//import 'swiper/css/swiper.css'//低版本</span>
+  <span class="token keyword">import</span> <span class="token string">&quot;swiper/swiper-bundle.min.css&quot;</span><span class="token punctuation">;</span><span class="token comment">//6X版本--至2020/7/29</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    Swiper<span class="token punctuation">,</span>
+    SwiperSlide
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  directives<span class="token operator">:</span> <span class="token punctuation">{</span>
+    swiper<span class="token operator">:</span> directive
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h3 id="基本使用"><a href="#基本使用" class="header-anchor">#</a> 基本使用</h3> <p>简单轮播图 （6x版本）</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token comment">&lt;!--
+ * @Description: 
+ * @Version: 2.0
+ * @Autor: 林其星
+ * @Date: 2020-07-29 14:58:02
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-07-29 15:41:18
+--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>swiper</span> <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>mySwiper<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>myswiper<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:options</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>swiperOptions<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>swiper-slide</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>img in imgs<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>img.index<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">:src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>require(<span class="token punctuation">'</span>../assets/<span class="token punctuation">'</span> + img.src + <span class="token punctuation">'</span>.jpg<span class="token punctuation">'</span>)<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>images<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>  <span class="token comment">&lt;!--解析路径--&gt;</span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>swiper-slide</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>swiper-pagination<span class="token punctuation">&quot;</span></span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>pagination<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>swiper</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">&quot;carrousel&quot;</span><span class="token punctuation">,</span>
+    <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        swiperOptions<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+        imgs<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span> src<span class="token operator">:</span> <span class="token number">1</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> src<span class="token operator">:</span> <span class="token number">2</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> src<span class="token operator">:</span> <span class="token number">3</span> <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> src<span class="token operator">:</span> <span class="token number">4</span> <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function">swiper</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">.</span>mySwiper<span class="token punctuation">.</span>$swiper<span class="token punctuation">;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">&quot;Current Swiper instance object&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>swiper<span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>swiper<span class="token punctuation">.</span><span class="token function">slideTo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>scss<span class="token punctuation">&quot;</span></span> <span class="token attr-name">scoped</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+  <span class="token selector">.myswiper</span> <span class="token punctuation">{</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 375px<span class="token selector">;
+    .images</span> <span class="token punctuation">{</span>
+      <span class="token property">width</span><span class="token punctuation">:</span> 375px<span class="token punctuation">;</span>
+      <span class="token property">background-size</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ul><li>一个坑：分页小圆点未显示</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vue/vue props.html" class="prev">
+        vue props
+      </a></span> <span class="next"><a href="/vue/vue-router的使用.html">
+        vue-router的使用
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.5bf611c2.js" defer></script><script src="/assets/js/2.da939bf9.js" defer></script><script src="/assets/js/27.051130f8.js" defer></script>
+  </body>
+</html>
