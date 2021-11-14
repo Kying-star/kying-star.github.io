@@ -1,0 +1,182 @@
+@require './config'
+
+html 
+	body[data-theme='dark']
+		font-family $bodyFontFamily, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+		-webkit-font-smoothing antialiased
+		-moz-osx-font-smoothing grayscale
+		text-rendering optimizeLegibility
+		font-size $bodyFontSize
+		line-height 1.6
+		color #839496
+		background-color #002b36
+		overflow initial
+		box-sizing border-box
+		word-wrap break-word
+		& > :first-child 
+			margin-top 0
+		h1 
+			font-size 2.25em
+			font-weight 300
+			padding-bottom 0.3em
+		h2 
+			font-size 1.75em
+			font-weight 400
+			padding-bottom 0.3em
+		h3 
+			font-size 1.5em
+			font-weight 500
+		h4 
+			font-size 1.25em
+			font-weight 600
+		h5 
+			font-size 1.1em
+			font-weight 600
+			font-size 1em
+		h6 
+			font-size 1.0em
+			font-weight 600
+			color #afbabb
+		strong 
+			color #dbe0e1
+		del 
+			color #afbabb
+		a 
+			color #08c
+			text-decoration none
+			&:not([href]) 
+				color inherit
+				text-decoration none
+			&:hover 
+				color #00a3f5
+				text-decoration none
+		img 
+			max-width 100%
+		& > p 
+			margin-top 0
+			margin-bottom 16px
+			word-wrap break-word
+		li 
+			margin-bottom 0
+			&.task-list-item 
+				list-style none
+			& > p 
+				margin-top 0
+				margin-bottom 0
+		.task-list-item-checkbox 
+			margin 0 0.2em 0.25em -1.8em
+			vertical-align middle
+			&:hover 
+				cursor pointer
+		blockquote 
+			margin 16px 0
+			font-size inherit
+			padding 0 15px
+			color #afbabb
+			border-left 4px solid #006c88
+			& > :first-child 
+				margin-top 0
+			& > :last-child 
+				margin-bottom 0
+		hr 
+			height 4px
+			margin 32px 0
+			background-color #006c88
+			border 0 none
+		table 
+			margin 10px 0 15px 0
+			border-collapse collapse
+			border-spacing 0
+			display block
+			width 100%
+			overflow auto
+			word-break normal
+			word-break keep-all
+			th 
+				font-weight bold
+				color #dbe0e1
+		dl 
+			padding 0
+			dt 
+				padding 0
+				margin-top 16px
+				font-size 1em
+				font-style italic
+				font-weight bold
+			dd 
+				padding 0 16px
+				margin-bottom 16px
+		.highlight 
+			margin-bottom 16px
+			pre 
+				margin-bottom 0
+				word-break normal
+		kbd 
+			color #dbe0e1
+			border 1px solid #006c88
+			border-bottom 2px solid #005469
+			padding 2px 4px
+			background-color #004b5f
+			border-radius 3px
+	h1,
+	h2,
+	h3,
+	h4,
+	h5 
+		font-weight 600
+	> ul,
+	> ol 
+		margin-bottom 16px
+	ul,
+	ol 
+		padding-left 2em
+	ul.no-list,
+	ol.no-list 
+		padding 0
+		list-style-type none
+	ul ul,
+	ul ol,
+	ol ol,
+	ol ul 
+		margin-top 0
+		margin-bottom 0
+	table td,
+	table th 
+		border 1px solid #006c88
+		padding 6px 13px
+	code::before,
+	code::after 
+		letter-spacing -0.2em
+		content "\00a0"
+	.highlight pre,
+	pre 
+		padding 1em
+		overflow auto
+		font-size 0.85em !important
+		line-height 1.45
+		border #006c88
+		border-radius 3px
+	pre code,
+	pre tt 
+		display inline
+		max-width initial
+		padding 0
+		margin 0
+		overflow initial
+		line-height inherit
+		word-wrap normal
+		background-color transparent
+		border 0
+	pre code:before,
+	pre tt:before,
+	pre code:after,
+	pre tt:after 
+		content normal
+	p,
+	blockquote,
+	ul,
+	ol,
+	dl,
+	pre 
+		margin-top 0
+		margin-bottom 16px

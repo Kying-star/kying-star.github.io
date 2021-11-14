@@ -1,0 +1,25 @@
+{
+  "name": "@vuepress-something/cli",
+  "version": "1.0.2",
+  "description": "Command line interface for rapid vuepresss-themem-something or vuepress usage",
+  "bin": {
+    "vps": "./bin/vps.js"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme-something",
+    "cli"
+  ],
+  "author":"vczyh",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.3"
+  }
+}

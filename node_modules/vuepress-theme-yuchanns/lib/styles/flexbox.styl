@@ -1,0 +1,70 @@
+.flex
+  &-self
+    &-start
+      align-self flex-start
+    &-stretch
+      align-self stretch
+  &-shrink
+    &-0
+      flex-shrink 0
+  &-auto
+    flex auto
+  &-items
+    &-start
+      align-items flex-start 
+    &-center
+      align-items center
+    &-end
+      align-items flex-end
+    &-baseline
+      align-items baseline
+  &-justify
+    &-between
+      @media (min-width 1012px)
+        justify-content space-between
+    &-center
+      justify-content center
+  &-wrap
+    flex-wrap wrap
+  &-row-reverse
+    flex-direction row-reverse
+  &-md
+    &-row
+      @media (min-width 768px)
+        flex-direction row!important
+    &-order
+      &-1
+        @media (min-width 768px)
+          order 1!important
+    &-items
+      &-center
+        @media (min-width 768px)
+          align-items center
+  &-lg
+    &-row
+      @media (min-width 1012px)
+        flex-direction row!important
+    &-nowrap
+      @media (min-width 1012px)
+        flex-wrap nowrap
+    &-order
+      &-none
+        @media (min-width 1012px)
+          order inherit!important
+    &-self
+      &-auto
+        align-self auto
+  &-xl
+    &-items
+      &-center
+        @media (min-width 1280px)
+          align-items center
+  &-order
+    &-none
+      @media (min-width 1012px)
+        order inherit
+    &-2
+      order 2
+  &-column
+    flex-direction column
+

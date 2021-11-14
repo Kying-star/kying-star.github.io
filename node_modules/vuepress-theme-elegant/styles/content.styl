@@ -1,0 +1,107 @@
+.post-sign{
+  display: block;
+  min-height: 150px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: $content-color;
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+    height: 5px;
+  }
+
+  p {
+    word-wrap: break-word;
+    padding: 0;
+    margin: 5px 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, ol, ul, pre, table, figure {
+    //margin-bottom: 1.2em
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding: 2px 0;
+  }
+
+  h3 {
+    font-size: 18px;
+    padding: 2px 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    text-transform: none;
+    .header-anchor {
+      margin-left: -1em;
+      padding-right: 4px;
+      color: $light-primary-color;
+      opacity: 0;
+      text-decoration: none;
+    }
+
+    &:hover {
+      .header-anchor {
+        opacity: 1;
+      }
+    }
+  }
+
+  a {
+    position relative
+    font-weight: 500
+    text-decoration none
+    color: $primary-color
+    &:after {
+      content ''
+      position absolute
+      left 0
+      bottom 0
+      height 1px
+      width 100%
+      background rgba($primary-color, .2)
+      transition height 200ms ease-in
+    }
+    &:hover:after {
+      height 100%
+    }
+  }
+}
+
+
+.custom-block
+  margin-bottom 1.2em
+  padding 1em 1.5em 0.2em
+  border-left-width .5em
+  border-left-style solid
+  border-radius 4px
+  &-title
+    font-weight 600
+  for type, color in $custom-blocks
+    &.{type}
+      color darken(color, 20%)
+      border-color color!important
+      background lighten(color, 90%)!important
+      border-radius: 4px;
+
+    .line-numbers-wrapper
+      position absolute
+      top 0
+      width $lineNumbersWrapperWidth
+      text-align center
+      color rgba(255, 255, 255, 0.3)
+      padding 1.25rem 0
+      line-height 1.4
+      br
+        user-select none
+      .line-number
+        position relative
+        z-index 4
+        user-select none
+        font-size 0.85em

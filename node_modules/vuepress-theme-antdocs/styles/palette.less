@@ -1,0 +1,38 @@
+// colors
+@accentColor: #3eaf7c;
+@primary-color: @accentColor;
+
+@bodyTextColor: rgba(0, 0, 0, 0.8);
+@textColor: #2a2a2a;
+@borderColor: #eaecef;
+@codeBgColor: #282c34;
+@arrowBgColor: #ccc;
+@badgeTipColor: #19be6b;
+@badgeWarningColor: #ff9900;
+@badgeErrorColor: #ed4014;
+
+// layout
+@navbarHeight: 4rem;
+@sidebarWidth: 20rem;
+@contentWidth: unset;
+@homePageWidth: 960px;
+
+@navbarLogoHeight: 2.125rem;
+
+// font
+@bodyFontSize: 15px;
+
+// responsive breakpoints
+@MQNarrow: 991px;
+@MQMobile: 767px;
+@MQMobileNarrow: 575px;
+
+// code
+@lineNumbersWrapperWidth: 2.5rem;
+@codeLang: js,ts,html,md,vue,c,css,cpp,sass,scss,less,stylus,go,java,sh,yaml,py,docker,dockerfile,makefile;
+
+// ads
+@MobileShow: none;
+@AdsStyle1MW: 7.5rem;
+
+@import (optional) '~@docs/palette.less';

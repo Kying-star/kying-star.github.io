@@ -1,0 +1,19 @@
+{
+  "name": "@vuepress-something/vuepress-plugin-components",
+  "description": "components for vuepress",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "author": "vczyh",
+  "license": "MIT",
+  "keywords": [
+    "vuepress",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vczyh/vuepress-theme-something.git"
+  },
+  "scripts": {
+    "pub": "npm version patch && npm publish --access public"
+  }
+}

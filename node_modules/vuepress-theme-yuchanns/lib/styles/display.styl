@@ -1,0 +1,32 @@
+.d
+  &-none
+    display none!important
+  &-block
+    display block
+  &-inline-block
+    display inline-block
+  &-flex
+    display flex!important
+  &-sm-flex
+    @media (min-width 544px)
+      display: flex
+  &-md-flex
+    @media (min-width 768px)
+      display flex
+  &-lg
+    &-4
+      @media (min-width 1012px)
+        margin-right 24px
+        margin-left 24px
+    &-block
+      @media (min-width 1012px)
+        display block!important
+    &-inline
+      @media (min-width 1012px)
+        display inline!important
+    &-flex
+      @media (min-width 1012px)
+        display flex!important
+    &-none
+      @media (min-width 1012px)
+        display none!important

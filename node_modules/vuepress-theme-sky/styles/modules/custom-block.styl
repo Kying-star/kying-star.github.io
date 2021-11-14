@@ -1,0 +1,54 @@
+.custom-block
+  padding .1rem 1.5rem
+  margin 1rem 0
+  border-radius 6px
+  .custom-block-title
+    margin-bottom -0.4rem
+    padding-left .5rem
+    line-height 1.2
+    font-weight 600
+    border-left-width .2rem
+    border-left-style solid
+  &.tip, &.warning, &.danger
+    border-left none!important
+
+.custom-block
+  &.quote
+    background-color #f1f0ed
+  &.tip
+    background-color #eef7f2
+    .custom-block-title
+      border-color #42b983
+  &.warning
+    background-color #f9f4dc
+    color darken(#ffe564, 70%)
+    .custom-block-title
+      color darken(#ffe564, 50%)
+    a
+      color $textColor
+  &.danger
+    background-color #f8ebe6
+    color darken(#f00, 70%)
+    .custom-block-title
+      color darken(#f00, 40%)
+    a
+      color $textColor
+
+
+pre.vue-container
+  border-left-width: .5rem;
+  border-left-style: solid;
+  border-color: #42b983;
+  border-radius: 0px;
+  & > code
+    font-size: 14px !important;
+    & > p
+      margin: -5px 0 -20px 0;
+    code
+      background-color: #42b983 !important;
+      padding: 3px 5px;
+      border-radius: 3px;
+      color #000
+    em
+      color #808080
+      font-weight light
