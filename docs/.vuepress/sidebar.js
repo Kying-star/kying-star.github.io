@@ -103,51 +103,51 @@ module.exports = {
         },
     ],
     '/other/': [{
-            title: "单片机",
-            path: "/other/mpu/",
-            collapsable: true,
-            sidebarDepth: 1,
-            children: [
-                "/other/mpu/first-mpu.md",
-                "/other/mpu/C51实现流水灯.md",
-                "/other/mpu/C51实现数码管.md"
-            ],
-        },
-        {
-            title: "Python",
-            path: "/other/Python/",
-            collapsable: true,
-            sidebarDepth: 1,
-            children: [
-                "/other/Python/Python入门.md",
-                "/other/Python/Python图像处理.md"
-            ],
-        },
-        {
-            title: "Git",
-            path: "/other/git/",
-            collapsable: true,
-            sidebarDepth: 1,
-            children: [
-                "/other/git/Git.md",
-            ],
-        },
-        {
-            title: "miscellanea",
-            path: "/other/miscellanea/",
-            collapsable: true,
-            sidebarDepth: 1,
-            children: [
-                "/other/miscellanea/2021年11月13日杂记.md",
-            ],
-        }
+        title: "单片机",
+        path: "/other/mpu/",
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+            "/other/mpu/first-mpu.md",
+            "/other/mpu/C51实现流水灯.md",
+            "/other/mpu/C51实现数码管.md"
+        ],
+    },
+    {
+        title: "Python",
+        path: "/other/Python/",
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+            "/other/Python/Python入门.md",
+            "/other/Python/Python图像处理.md"
+        ],
+    },
+    {
+        title: "Git",
+        path: "/other/git/",
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+            "/other/git/Git.md",
+        ],
+    },
+    {
+        title: "miscellanea",
+        path: "/other/miscellanea/",
+        collapsable: true,
+        sidebarDepth: 1,
+        children: [
+            "/other/miscellanea/2021年11月13日杂记.md",
+        ],
+    }
     ],
-    '/algorithm/':[
+    '/algorithm/': [
         {
-            title : '岛屿问题',
-            path : '/algorithm/岛屿问题/',
-            sidebarDepth : 1,
-            children : [
+            title: '岛屿问题',
+            path: '/algorithm/岛屿问题/',
+            sidebarDepth: 1,
+            children: [
                 '/algorithm/岛屿问题/200.岛屿数量(中等)/',
                 '/algorithm/岛屿问题/1254.统计封闭岛屿的数目(中等)/',
                 '/algorithm/岛屿问题/695.岛屿的最大面积/',
@@ -155,26 +155,30 @@ module.exports = {
                 '/algorithm/岛屿问题/1020飞地的数量(中等)/',
             ]
         },
-        // {
-        //     title : '动态规划',
-        //     path : '/algorithm/earthProblem/',
-        //     sidebarDepth : 1,
-        //     children : [
-        //         '/algorithm/动态规划/200.岛屿数量(中等)/',
-        //     ]
-        // },
         {
-            title : '链表',
-            path : '/algorithm/链表/',
-            sidebarDepth : 1,
-            children : [
+            title: '链表',
+            path: '/algorithm/链表/',
+            sidebarDepth: 1,
+            children: [
                 '/algorithm/链表/21. 合并两个有序链表(简单)/',
                 '/algorithm/链表/23. 合并K个升序链表(困难)/',
                 '/algorithm/链表/141. 环形链表(简单)/',
                 '/algorithm/链表/142. 环形链表 II(中等)/',
-                '/algorithm/链表/142. 环形链表 II(中等)/',
                 '/algorithm/链表/876. 链表的中间结点(简单)/',
                 '/algorithm/链表/19. 删除链表的倒数第 N 个结点(困难)/',
+                '/algorithm/160. 相交链表/',
+                '/algorithm/链表/876. 链表的中间结点(简单)/',
+            ]
+        },
+        {
+            title: '二叉树',
+            path: '/algorithm/二叉树/',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/二叉树//',
+                '/algorithm/二叉树//',
+                '/algorithm/二叉树//',
+                '/algorithm/二叉树//',
             ]
         },
     ]
