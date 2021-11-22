@@ -166,7 +166,7 @@ module.exports = {
                 '/algorithm/链表/142. 环形链表 II(中等)/',
                 '/algorithm/链表/876. 链表的中间结点(简单)/',
                 '/algorithm/链表/19. 删除链表的倒数第 N 个结点(困难)/',
-                '/algorithm/160. 相交链表/',
+                '/algorithm/链表/160. 相交链表/',
                 '/algorithm/链表/876. 链表的中间结点(简单)/',
             ]
         },
@@ -175,10 +175,8 @@ module.exports = {
             path: '/algorithm/二叉树/',
             sidebarDepth: 1,
             children: [
-                '/algorithm/二叉树//',
-                '/algorithm/二叉树//',
-                '/algorithm/二叉树//',
-                '/algorithm/二叉树//',
+                '/algorithm/二叉树/654. 最大二叉树(中等)/',
+                '/algorithm/二叉树/105. 从前序与中序遍历序列构造二叉树/',
             ]
         },
     ]
