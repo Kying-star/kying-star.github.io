@@ -101,6 +101,13 @@ module.exports = {
             sidebarDepth: 1,
             children: ["/webfont/regex/正则表达式.md"],
         },
+        {
+            title: "浏览器",
+            path: "/webfont/Browser/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: ["/webfont/Browser/正则表达式.md"],
+        },
     ],
     '/other/': [{
         title: "单片机",
@@ -167,7 +174,6 @@ module.exports = {
                 '/algorithm/链表/876. 链表的中间结点(简单)/',
                 '/algorithm/链表/19. 删除链表的倒数第 N 个结点(困难)/',
                 '/algorithm/链表/160. 相交链表/',
-                '/algorithm/链表/876. 链表的中间结点(简单)/',
             ]
         },
         {
@@ -176,8 +182,33 @@ module.exports = {
             sidebarDepth: 1,
             children: [
                 '/algorithm/二叉树/654. 最大二叉树(中等)/',
-                '/algorithm/二叉树/105. 从前序与中序遍历序列构造二叉树/',
+                '/algorithm/二叉树/105. 从前序与中序遍历序列构造二叉树(中等)/',
+                '/algorithm/二叉树/106. 从中序与后序遍历序列构造二叉树(中等)/',
+                '/algorithm/二叉树/114. 二叉树展开为链表(中等)/',
+                '/algorithm/二叉树/230. 二叉搜索树中第K小的元素/',
+                '/algorithm/二叉树/226. 翻转二叉树(简单)/',
+                '/algorithm/二叉树/538. 把二叉搜索树转换为累加树(中等)/',
+                '/algorithm/二叉树/450. 删除二叉搜索树中的节点(中等)/',
+                '/algorithm/二叉树/98. 验证二叉搜索树(中等)/',
+                '/algorithm/二叉树/701. 二叉搜索树中的插入操作(中等)/',
             ]
         },
+        {
+            title: '图',
+            path: '/algorithm/图',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/图/797. 所有可能的路径(中等)/'
+            ]
+        },
+        {
+            title: '前端常见算法',
+            path: '/algorithm/前端常见算法',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/前端常见算法/new/',
+                '/algorithm/前端常见算法/promise/'
+            ]
+        }
     ]
 };
