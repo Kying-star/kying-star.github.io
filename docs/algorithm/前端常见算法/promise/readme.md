@@ -1,4 +1,4 @@
-# 手写一个建议的promise
+# 手写一个简易的promise
 [参考链接](https://juejin.cn/post/6945319439772434469#heading-15)
 ## 思路
  - 首先初始化各种状态，state , reason , value , onFufilledCBList , onRejectCBList

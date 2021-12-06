@@ -106,7 +106,7 @@ module.exports = {
             path: "/webfont/Browser/",
             collapsable: true,
             sidebarDepth: 1,
-            children: ["/webfont/Browser/正则表达式.md"],
+            children: ["/webfont/Browser/http资源缓存机制/"],
         },
     ],
     '/other/': [{
@@ -208,6 +208,14 @@ module.exports = {
             children: [
                 '/algorithm/前端常见算法/new/',
                 '/algorithm/前端常见算法/promise/'
+            ]
+        },
+        {
+            title: '活用数据结构问题',
+            path: '/algorithm/活用数据结构问题',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/活用数据结构问题/146. LRU 缓存机制(中等)/'
             ]
         }
     ]
