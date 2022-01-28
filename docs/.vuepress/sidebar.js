@@ -1,7 +1,6 @@
 const fs = require('fs');
 
-// 同步读取上级目录下的所有文件到files中
-
+// 同步读取上级目录下的所有文件到files中 bate
 // const getEssayList = (src) => {
 //     const files = [
 //         '/algorithm/岛屿问题/200.岛屿数量(中等)/',
@@ -109,27 +108,28 @@ module.exports = {
             children: ["/webfont/Browser/http资源缓存机制/"],
         },
     ],
-    '/other/': [{
-        title: "单片机",
-        path: "/other/mpu/",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-            "/other/mpu/first-mpu.md",
-            "/other/mpu/C51实现流水灯.md",
-            "/other/mpu/C51实现数码管.md"
-        ],
-    },
-    {
-        title: "Python",
-        path: "/other/Python/",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-            "/other/Python/Python入门.md",
-            "/other/Python/Python图像处理.md"
-        ],
-    },
+    '/other/': [
+        {
+            title: "单片机",
+            path: "/other/mpu/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/mpu/first-mpu.md",
+                "/other/mpu/C51实现流水灯.md",
+                "/other/mpu/C51实现数码管.md"
+            ],
+        },
+        {
+            title: "Python",
+            path: "/other/Python/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/Python/Python入门.md",
+                "/other/Python/Python图像处理.md"
+            ],
+        },
     {
         title: "Git",
         path: "/other/git/",
@@ -138,16 +138,35 @@ module.exports = {
         children: [
             "/other/git/Git.md",
         ],
-    },
-    {
-        title: "miscellanea",
-        path: "/other/miscellanea/",
-        collapsable: true,
-        sidebarDepth: 1,
-        children: [
-            "/other/miscellanea/2021年11月13日杂记.md",
-        ],
-    }
+        },
+        {
+            title: "Docker",
+            path: "/other/docker/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/docker/Docker基本知识.md",
+            ],
+        },
+        {
+            title: "Vuepress",
+            path: "/other/vuepress/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/vuepress/vuepress常用语法.md",
+            ],
+        },
+        {
+            title: "miscellanea",
+            path: "/other/miscellanea/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/miscellanea/2021年11月13日杂记.md",
+                "/other/miscellanea/2021年1月28日杂记.md",
+            ],
+        },
     ],
     '/algorithm/': [
         {
