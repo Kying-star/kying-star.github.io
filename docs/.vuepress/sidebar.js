@@ -164,7 +164,7 @@ module.exports = {
             sidebarDepth: 1,
             children: [
                 "/other/miscellanea/2021年11月13日杂记.md",
-                "/other/miscellanea/2021年1月28日杂记.md",
+                "/other/miscellanea/2022年1月28日杂记.md",
             ],
         },
     ],
