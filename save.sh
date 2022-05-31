@@ -1,3 +1,4 @@
+git checkout code
 git pull
 git add .
 git commit -m "update source code"
