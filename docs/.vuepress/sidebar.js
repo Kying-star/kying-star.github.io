@@ -167,6 +167,15 @@ module.exports = {
                 "/other/miscellanea/2022年1月28日杂记.md",
             ],
         },
+        {
+            title: "操作系统",
+            path: "/other/OS/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/OS/操作系统简述.md",
+            ],
+        },
     ],
     '/algorithm/': [
         {
