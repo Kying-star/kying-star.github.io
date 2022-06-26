@@ -235,7 +235,8 @@ module.exports = {
                 '/algorithm/前端常见算法/promise系列/',
                 '/algorithm/前端常见算法/柯里化/',
                 '/algorithm/前端常见算法/深拷贝/',
-                '/algorithm/前端常见算法/手撕数组原生/'
+                '/algorithm/前端常见算法/手撕数组原生/',
+                '/algorithm/前端常见算法/数组扁平化/'
             ]
         },
         {
