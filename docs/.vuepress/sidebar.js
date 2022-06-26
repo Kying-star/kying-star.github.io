@@ -1,17 +1,4 @@
-const fs = require('fs');
 
-// 同步读取上级目录下的所有文件到files中 bate
-// const getEssayList = (src) => {
-//     const files = [
-//         '/algorithm/岛屿问题/200.岛屿数量(中等)/',
-//         '/algorithm/岛屿问题/1254.统计封闭岛屿的数目(中等)/',
-//         '/algorithm/岛屿问题/695.岛屿的最大面积/',
-//         '/algorithm/岛屿问题/1905.统计子岛屿/',
-//         '/algorithm/岛屿问题/1020飞地的数量(中等)/',
-//     ]
-//     return fi
-// } 
-// console.log(getEssayList('algorithm/岛屿问题'));
 module.exports = {
     '/webfont/': [
         {
@@ -176,6 +163,15 @@ module.exports = {
                 "/other/OS/操作系统简述.md",
             ],
         },
+        {
+            title: "Rust",
+            path: "/other/Rust/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/Rust/Rust入门.md",
+            ],
+        },
     ],
     '/algorithm/': [
         {
@@ -235,7 +231,11 @@ module.exports = {
             sidebarDepth: 1,
             children: [
                 '/algorithm/前端常见算法/new/',
-                '/algorithm/前端常见算法/promise/'
+                '/algorithm/前端常见算法/promise/', 
+                '/algorithm/前端常见算法/promise系列/',
+                '/algorithm/前端常见算法/柯里化/',
+                '/algorithm/前端常见算法/深拷贝/',
+                '/algorithm/前端常见算法/手撕数组原生/'
             ]
         },
         {
@@ -245,6 +245,14 @@ module.exports = {
             children: [
                 '/algorithm/活用数据结构问题/146. LRU 缓存机制(中等)/'
             ]
+        },
+        { 
+            title: '查找算法',
+            path: '/algorithm/查找算法',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/查找算法/704. 二分查找(简单)/'
+            ] 
         }
     ]
 };
