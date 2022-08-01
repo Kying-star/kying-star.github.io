@@ -1,5 +1,6 @@
 # 200.岛屿数量
- ![](https://tva1.sinaimg.cn/large/008i3skNly1gw3ei5otiuj30ka0s3q4e.jpg)
+[链接](https://leetcode.cn/problems/number-of-islands/submissions/)
+![](https://tva1.sinaimg.cn/large/008i3skNly1gw3ei5otiuj30ka0s3q4e.jpg)
 
 
  思路 ：

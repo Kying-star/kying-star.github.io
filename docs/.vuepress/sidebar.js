@@ -15,6 +15,7 @@ module.exports = {
                 "/webfont/js/懒加载.md",
                 "/webfont/js/轮播图.md",
                 "/webfont/js/js作用域.md",
+                "/webfont/js/JS高阶函数和运行机制/",
             ],
         },
         {
@@ -172,6 +173,15 @@ module.exports = {
                 "/other/Rust/Rust入门.md",
             ],
         },
+        {
+            title: "计算机网络",
+            path: "/other/计算机网络/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "/other/计算机网络/http&https/",
+            ],
+        },
     ],
     '/algorithm/': [
         {
@@ -198,6 +208,7 @@ module.exports = {
                 '/algorithm/链表/876. 链表的中间结点(简单)/',
                 '/algorithm/链表/19. 删除链表的倒数第 N 个结点(困难)/',
                 '/algorithm/链表/160. 相交链表/',
+                '/algorithm/链表/83. 删除排序链表中的重复元素(简单)/',
             ]
         },
         {
@@ -253,6 +264,18 @@ module.exports = {
             sidebarDepth: 1,
             children: [
                 '/algorithm/查找算法/704. 二分查找(简单)/'
+            ] 
+        },
+        {
+            title:'数组',
+            path: '/algorithm/数组',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/数组/1. 两数之和(简单)/',
+                '/algorithm/数组/5. 最长回文子串(中等)/',
+                '/algorithm/数组/26. 删除有序数组中的重复项(简单)/',
+                '/algorithm/数组/167. 两数之和 II - 输入有序数组(中等)/',
+                '/algorithm/数组/283. 移动零(简单)/',
             ] 
         }
     ]
