@@ -66,7 +66,7 @@ module.exports = {
             collapsable: true,
             sidebarDepth: 1,
             children: [
-                "/webfont/react/React底层原理.md",
+                // "/webfont/react/React底层原理.md",
                 "/webfont/react/React的起步.md",
                 "/webfont/react/ReactCSS.md",
                 "/webfont/react/recoil入门.md"
@@ -266,6 +266,17 @@ module.exports = {
                 '/algorithm/查找算法/704. 二分查找(简单)/'
             ] 
         },
+        { 
+            title: '排序算法',
+            path: '/algorithm/排序算法',
+            sidebarDepth: 1,
+            children: [
+                '/algorithm/排序算法/插入排序/',
+                '/algorithm/排序算法/快速排序/',
+                '/algorithm/排序算法/冒泡排序/',
+                '/algorithm/排序算法/选择排序/'
+            ] 
+        },
         {
             title:'数组',
             path: '/algorithm/数组',
@@ -278,5 +289,27 @@ module.exports = {
                 '/algorithm/数组/283. 移动零(简单)/',
             ] 
         }
-    ]
+    ],
+    '/AI/': [
+        {
+            title: "计算机视觉",
+            path: "/AI/计算机视觉/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                '/AI/计算机视觉/简单图像处理/'
+            ],
+        },
+    ],
+    '/language/': [
+        {
+            title: "语言学习",
+            path: "/AI/计算机视觉/",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                '/AI/计算机视觉/简单图像处理/'
+            ],
+        },
+    ],
 };

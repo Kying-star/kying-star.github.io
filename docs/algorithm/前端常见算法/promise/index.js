@@ -48,7 +48,9 @@ class Mypromise {
 }
 const promise = new Mypromise((resolve, reject) => {
     // 目前这里只处理同步的问题
-    resolve('success')
+    setTimeout(()=>{
+        resolve('success')
+    },2000)
 })
 promise.then(e=>{
     console.log(e)

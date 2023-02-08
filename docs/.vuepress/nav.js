@@ -9,7 +9,10 @@
 module.exports = [
     { text: "主页", link: "/" },
     { text: "指北", link: "/guide/" },
+    { text: "语言学习", link: "/language/" },
+    { text: "AI", link: "/AI/" },
     { text: "前端", link: "/webfont/" },
+    { text: "后端", link: "/backend/" },
     { text: "算法", link: "/algorithm/" },
     { text: "杂项", link: "/other/" },
     { text: "github", link: "https://github.com/Kying-star" },
